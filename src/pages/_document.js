@@ -1,9 +1,15 @@
 import { Html, Head, Main, NextScript } from 'next/document'
-
+import Script from 'next/script'
+var $ = require("jquery");
+if (typeof window !== "undefined") {
+  // Client-side-only code
+  window.$ = window.jQuery = require("jquery");
+}
 export default function Document() {
   return (
     <Html lang="tr">
       <Head>
+        
       {/* <meta content="width=device-width, initial-scale=1.0" name="viewport"/> */}
       <link href="img/icon.webp" rel="icon"/>
       <link async rel="preconnect" href="https://fonts.gstatic.com"/>
@@ -18,7 +24,7 @@ export default function Document() {
       <body>
         <Main />
        <NextScript>
-    
+     
 
 
        </NextScript>
