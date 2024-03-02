@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://yildizhali.com
+
+# Sitemaps
+Sitemap: https://yildizhali.com/sitemap.xml
