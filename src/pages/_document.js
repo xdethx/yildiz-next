@@ -10,7 +10,7 @@ export default function Document() {
     <Html lang="tr">
       <Head>
         
-      {/* <meta content="width=device-width, initial-scale=1.0" name="viewport"/> */}
+      <meta name="facebook-domain-verification" content="bzxu92mz4mh9ag4dluov650egxsohw" />
       <link href="img/icon.webp" rel="icon"/>
       <link async rel="preconnect" href="https://fonts.gstatic.com"/>
     <link async href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>

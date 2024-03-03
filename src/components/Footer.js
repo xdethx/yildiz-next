@@ -12,7 +12,7 @@ const Footer = () => {
             <div className="col-lg-3 col-md-6 mb-5">
                 
                 <Link href="/" className="navbar-brand">
-                    <Image src="/img/yoyo.webp" height={100} width={300} priority  alt="icon"/>
+                    <Image src="/img/yoyo.jpg" height={100} width={300} priority  alt="icon"/>
                 </Link>
                 <p>Sizlere en iyi,hijyenik,ilk günkü gibi temiz halıları sunmak için 25 yıllık tecrübemizle burdayız  </p>
                 <h5 className="font-weight-semi-bold text-white mb-2">Çalışma Saatleri:</h5>

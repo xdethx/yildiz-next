@@ -16,7 +16,7 @@ const Header = () => {
           <div className="row">
             <div className="col-lg-3 bg-secondary d-none d-lg-block">
               <a href="" className="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
-                <Image src="/img/yoyo.webp" height="100" width="300" alt="" />
+                <Image src="/img/yoyo.jpg" height="100" width="300" alt="" />
               </a>
             </div>
             <div className="col-lg-9">
@@ -32,7 +32,7 @@ const Header = () => {
               </div>
               <nav className="navbar navbar-expand-lg bg-white navbar-light p-0">
                 <a href="" className="navbar-brand d-block d-lg-none">
-                  <Image src="/img/yoyo.webp" height={100} width={300} priority alt="icon" />
+                  <Image src="/img/yoyo.jpg" height={100} width={300} priority alt="icon" />
                 </a>
                 <button
                   type="button"

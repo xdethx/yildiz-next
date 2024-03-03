@@ -25,7 +25,7 @@ const About = () => {
                             data-src="img/roll.mp4" data-target="#videoModal">
                             <span></span>
                         </button>
-                        <h5 className="font-weight-normal text-white m-0 ml-4 d-none d-sm-block">Play Video</h5>
+                 
                     </div>
                 </div>
             </div>

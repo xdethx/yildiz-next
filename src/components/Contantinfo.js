@@ -10,7 +10,7 @@ const Contantinfo = () => {
                     <i className="fa fa-3x fa-map-marker-alt text-secondary mr-4"></i>
                     <div className="">
                         <h5 className="mb-2">Çalışma alanımız</h5>
-                        <p className="m-0">İstanbul/Anadolu Yakası</p>
+                        <h6 className="m-0">İstanbul/Anadolu Yakası</h6>
                     </div>
                 </div>
             </div>
