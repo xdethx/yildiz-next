@@ -6,6 +6,7 @@ import Script from 'next/script';
  import { HelmetProvider, Helmet } from 'react-helmet-async';
 
 import "jquery"
+import GoogleAnalytics from '@/components/GoogleAnalytics';
 
 
 
@@ -16,8 +17,11 @@ export default function App({ Component, pageProps }) {
   return (
 <>
 <Script src="https://code.jquery.com/jquery-3.4.1.min.js"  strategy="beforeInteractive"  />
+
 <HelmetProvider>
+  <GoogleAnalytics/>
 <Helmet>
+  
   
   <script async src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" />
   <script async src="lib/easing/easing.min.js" type="text/javascript" />

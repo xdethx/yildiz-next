@@ -1,5 +1,5 @@
 import { Html, Head, Main, NextScript } from 'next/document'
-import Script from 'next/script'
+
 var $ = require("jquery");
 if (typeof window !== "undefined") {
   // Client-side-only code
@@ -9,7 +9,8 @@ export default function Document() {
   return (
     <Html lang="tr">
       <Head>
-        
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-BB274J0KBG"></script>
+
       <meta name="facebook-domain-verification" content="bzxu92mz4mh9ag4dluov650egxsohw" />
       <link href="img/icon.webp" rel="icon"/>
       <link async rel="preconnect" href="https://fonts.gstatic.com"/>

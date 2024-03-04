@@ -19,9 +19,9 @@ const SideNav = ({items}) => {
  {filteredBlogitems.map((item)=>(
 
 <div key={item.id} className="d-flex align-items-center border-bottom mb-3 pb-3">
- <Image className="img-fluid rounded sideNav width: 80px; height: 80px; object-fit: cover;" src={`/${item.imgUrl}`} width={600} height={600}  alt=""/>
+ <Image className="img-fluid rounded sideNav width: 80px; height: 80px; object-fit: cover;" src={`/${item.imgUrl}`} width={600} height={600}  alt="resim"/>
  <div className="d-flex flex-column pl-3">
-   <Link href={`/blogPost/${item.id}`}  className="text-dark mb-2" >{item.subHead}Detaylı bilgi...</Link>
+   <Link href={`/blog_detay/${item.id}`}  className="text-dark mb-2" >{item.subHead}Detaylı bilgi...</Link>
    
      <div className="d-flex">
          <small><a className="text-secondary text-uppercase font-weight-medium" href="">yıldız</a></small>

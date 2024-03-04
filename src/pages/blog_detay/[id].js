@@ -42,7 +42,7 @@ const BlogPostPage = () => {
                     </div>
 
                     <div className="mb-5">
-                        <Image className="img-fluid rounded w-100 mb-4" src={`/${item.imgUrl}`} width={600} height={600} alt="Image"/>
+                        <Image className="img-fluid rounded w-100 mb-4" src={`/${item.imgUrl}`} width={600} height={600} alt="resim"/>
                         <h2>{item.h1}</h2>
                         <p>{item.dec1}
                         </p>

@@ -21,9 +21,9 @@ const About = () => {
                     <div className="d-flex align-items-center pt-4">
                        
                         <Link href="/hakkimizda" className="btn btn-primary mr-5">Daha Fazla</Link>
-                        <button type="button" className="btn-play" data-toggle="modal"
+                        <button type="button" aria-label="Videoyu oynat" className="btn-play" data-toggle="modal"
                             data-src="img/roll.mp4" data-target="#videoModal">
-                            <span></span>
+                             <span className="sr-only">Videoyu Oynat</span>
                         </button>
                  
                     </div>

@@ -15,9 +15,9 @@ const Header = () => {
         <div className="container-fluid">
           <div className="row">
             <div className="col-lg-3 bg-secondary d-none d-lg-block">
-              <a href="" className="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
-                <Image src="/img/yoyo.jpg" height="100" width="300" alt="" />
-              </a>
+              <Link href="/" aria-label="Ana Sayfa'ya Git" className="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
+                <Image src="/img/yoyo.jpg" height="100" width="300" alt="Şirket Adı yıldız halı yıkama"  />
+              </Link>
             </div>
             <div className="col-lg-9">
               <div className="row bg-dark d-none d-lg-flex">
@@ -31,9 +31,9 @@ const Header = () => {
                 </div>
               </div>
               <nav className="navbar navbar-expand-lg bg-white navbar-light p-0">
-                <a href="" className="navbar-brand d-block d-lg-none">
-                  <Image src="/img/yoyo.jpg" height={100} width={300} priority alt="icon" />
-                </a>
+                <Link aria-label="Ana Sayfa'ya Git" href="/" className="navbar-brand d-block d-lg-none">
+                  <Image src="/img/yoyo.jpg" height={100} width={300} priority alt="Şirket Adı yıldız halı yıkama" />
+                </Link>
                 <button
                   type="button"
                   className="navbar-toggler"
@@ -53,20 +53,20 @@ const Header = () => {
                   id="navbarCollapse"
                 >
                   <div className="navbar-nav mr-auto py-0">
-                    <Link href="/" className="nav-item nav-link" onClick={() => setIsNavCollapsed(true)}>
+                    <Link href="/" aria-label="Ana Sayfayı aç" className="nav-item nav-link" onClick={() => setIsNavCollapsed(true)}>
                       Ana Sayfa
                     </Link>
-                    <Link href="/hakkimizda" className="nav-item nav-link" onClick={() => setIsNavCollapsed(true)}>
-                      Hakkimizda
+                    <Link href="/hakkimizda" aria-label="Hakkımızda Sayfasını aç" className="nav-item nav-link" onClick={() => setIsNavCollapsed(true)}>
+                      Hakkımızda
                     </Link>
-                    <Link href="/blog" className="nav-item nav-link" onClick={() => setIsNavCollapsed(true)}>
+                    <Link href="/blog" aria-label="Blog Sayfasını aç" className="nav-item nav-link" onClick={() => setIsNavCollapsed(true)}>
                       Blog
                     </Link>
-                    <Link href="/hizmet_bolgeleri" className="nav-item nav-link" onClick={() => setIsNavCollapsed(true)}>
+                    <Link href="/hizmet_bolgeleri" aria-label="Hizmet Bölgeleri Sayfasını aç" className="nav-item nav-link" onClick={() => setIsNavCollapsed(true)}>
                       Hizmet Bölgelerimiz
                     </Link>
                   </div>
-                  <a href="tel:+90539 920 53 35" className="btn btn-primary mr-3 d-none d-lg-block">
+                  <a href="tel:+90539 920 53 35" aria-label="+90539 920 53 35 numarasını ara" className="btn btn-primary mr-3 d-none d-lg-block">
                     Bizi Arayın
                   </a>
                 </div>

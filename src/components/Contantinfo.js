@@ -24,7 +24,7 @@ const Contantinfo = () => {
                     <i className="fa fa-3x fa-phone-alt text-secondary mr-4"></i>
                     <div className="">
                         <h5 className="mb-2">Telefon</h5>
-                        <p className="m-0"><a className="text-secondary" href="tel:+90539 920 53 35">0539 920 53 35</a></p>
+                        <p className="m-0"><a className="text-secondary" aria-label="+90539 920 53 35 numarasını ara" href="tel:+90539 920 53 35">0539 920 53 35</a></p>
                     </div>
                 </div>
             </div>

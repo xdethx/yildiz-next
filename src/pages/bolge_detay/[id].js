@@ -40,7 +40,7 @@ const AreaPostPage = () => {
 
                     <div className="mb-5">
                     <p>{item.dec}</p>
-                        <Image className="img-fluid rounded w-100 mb-4" src={`/${item.imgUrl}`} width={600} height={600} alt="Image"/>
+                        <Image className="img-fluid rounded w-100 mb-4" src={`/${item.imgUrl}`} width={600} height={600} alt="resim"/>
                   
                         
                     </div>
@@ -58,9 +58,9 @@ const AreaPostPage = () => {
 {filteredBlogitems.map((item)=>(
 
 <div key={item.id} className="d-flex align-items-center border-bottom mb-3 pb-3">
-<Image className="img-fluid rounded sideNav width: 80px; height: 80px; object-fit: cover;" src={`/${item.imgUrl}`} width={600} height={600}  alt=""/>
+<Image className="img-fluid rounded sideNav width: 80px; height: 80px; object-fit: cover;" src={`/${item.imgUrl}`} width={600} height={600}  alt="resim"/>
 <div className="d-flex flex-column pl-3">
-<Link href={`/bolge_detay/${item.id}`}  className="text-dark mb-2" >{item.mainHead} Bölgesi {item.subHead}</Link>
+<Link aria-label="Bölge detay sayfasını aç" href={`/bolge_detay/${item.id}`}  className="text-dark mb-2" >{item.mainHead} Bölgesi {item.subHead}</Link>
 
 <div className="d-flex">
 <small><a className="text-secondary text-uppercase font-weight-medium" href="">yıldız</a></small>

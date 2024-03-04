@@ -30,7 +30,7 @@ const Features = () => {
                 <div className="col-lg-5">  
                 
                     <div className="position-relative h-100 rounded overflow-hidden">
-                        <Image className="position-absolute w-100 h-100" src="/img/temiz.png" width={600} height={600} alt='image' />
+                        <Image className="position-absolute w-100 h-100" src="/img/temiz.png" width={600} height={600} alt="resim" />
                     </div>
                 </div>
             </div>

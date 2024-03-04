@@ -29,7 +29,7 @@ const hizmet_bolgeleri = () => {
 
 
 <div className="position-relative mb-4">
-    <Image className="img-fluid rounded w-100" src={`/${item.imgUrl}`} width={600} height={600} alt=""/> 
+    <Image className="img-fluid rounded w-100" src={`/${item.imgUrl}`} width={600} height={600} alt="resim"/> 
  
 </div>
 <div className="d-flex mb-2">
@@ -40,7 +40,7 @@ const hizmet_bolgeleri = () => {
 <h5 className="font-weight-medium mb-2">{item.mainHead}</h5>
 <p className="mb-4">Bölgesi {item.subHead}</p>
 
-<Link href={`/bolge_detay/${item.id}`} className="btn btn-sm btn-primary py-2" >{item.id} Okumaya devam et...</Link>
+<Link aria-label="Bölge detay sayfasını aç" href={`/bolge_detay/${item.id}`} className="btn btn-sm btn-primary py-2" >{item.id} Okumaya devam et...</Link>
 
 
 </div>

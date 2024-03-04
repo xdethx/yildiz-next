@@ -15,7 +15,7 @@ const PageinHeader = ({header,name}) => {
                 <div className="col-md-6 text-center text-md-right">
                     <div className="d-inline-flex align-items-center">
                        
-                        <Link href="/" className="btn btn-sm btn-outline-light" >Ana Sayfa</Link>
+                        <Link href="/" aria-label="Ana sayfayı aç" className="btn btn-sm btn-outline-light" >Ana Sayfa</Link>
                         <i className="fas fa-angle-double-right text-light mx-2"></i>
                         <a className="btn btn-sm btn-outline-light disabled" href="">{name}</a>
                     </div>

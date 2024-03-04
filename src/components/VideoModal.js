@@ -8,7 +8,7 @@ const VideoModal = () => {
         <div className="modal-dialog" role="document">
             <div className="modal-content">
                 <div className="modal-body">
-                    <button type="button" className="close" data-dismiss="modal" aria-label="Close">
+                    <button type="button" className="close" data-dismiss="modal" aria-label="Video Kapat">
                         <span aria-hidden="true">&times;</span>
                     </button>        
                     {/* <!-- 16:9 aspect ratio --> */}

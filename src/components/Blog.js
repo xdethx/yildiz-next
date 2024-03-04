@@ -20,7 +20,7 @@ const Blog = () => {
                 <div className="col-lg-4 col-md-6 mb-5">
                     <div className="position-relative mb-4">
    
-                        <Image className="img-fluid rounded w-100" src="/img/makine.jpg" width={600} height={600}  alt="image" />
+                        <Image className="img-fluid rounded w-100" src="/img/makine.jpg" width={600} height={600} alt="resim" />
                         <div className="blog-date">
                             <h4 className="font-weight-bold mb-n1">01</h4>
                             <small className="text-white text-uppercase">Mart</small>
@@ -33,12 +33,12 @@ const Blog = () => {
                     </div>
                     <h5 className="font-weight-medium mb-2">Makine Halı Yıkama</h5>
                     <p className="mb-4">Makine halılar nasıl yıkanır?Detaylı bilgi...</p>
-                    <Link className="btn btn-sm btn-primary py-2" href="/blog_detay/1">Okumaya devam et...</Link>
+                    <Link aria-label="Blog yazısını aç" className="btn btn-sm btn-primary py-2" href="/blog_detay/1">Okumaya devam et...</Link>
                 </div>
                 <div className="col-lg-4 col-md-6 mb-5">
                     <div className="position-relative mb-4">
   
-                        <Image  className="img-fluid rounded w-100" src="/img/el-dokuma.jpg" width={600} height={600} alt="image" />
+                        <Image  className="img-fluid rounded w-100" src="/img/el-dokuma.jpg" width={600} height={600} alt="resim" />
                         <div className="blog-date">
                             <h4 className="font-weight-bold mb-n1">21</h4>
                             <small className="text-white text-uppercase">Şubat</small>
@@ -51,11 +51,11 @@ const Blog = () => {
                     </div>
                     <h5 className="font-weight-medium mb-2">El Dokuma Halı Yıkama</h5>
                     <p className="mb-4">El dokuma halılar nasıl yıkanır?Detaylı bilgi...</p>
-                    <Link className="btn btn-sm btn-primary py-2" href="/blog_detay/2">Okumaya devam et...</Link>
+                    <Link aria-label="Blog yazısını aç" className="btn btn-sm btn-primary py-2" href="/blog_detay/2">Okumaya devam et...</Link>
                 </div>
                 <div className="col-lg-4 col-md-6 mb-5">
                     <div className="position-relative mb-4">
-                        <Image className="img-fluid rounded w-100" src="/img/bambu.jpg" width={600} height={600} alt=""/>
+                        <Image className="img-fluid rounded w-100" src="/img/bambu.jpg" width={600} height={600} alt="resim"/>
                         
                         <div className="blog-date">
                             <h4 className="font-weight-bold mb-n1">04</h4>
@@ -69,7 +69,7 @@ const Blog = () => {
                     </div>
                     <h5 className="font-weight-medium mb-2">Bambu Halı Yıkama</h5>
                     <p className="mb-4">Bambu halılar nasıl yıkanır?Detaylı bilgi...</p>
-                    <Link className="btn btn-sm btn-primary py-2" href="/blog_detay/3">Okumaya devam et...</Link>
+                    <Link aria-label="Blog yazısını aç" className="btn btn-sm btn-primary py-2" href="/blog_detay/3">Okumaya devam et...</Link>
                 </div>
             </div>
         </div>

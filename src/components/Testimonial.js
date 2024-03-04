@@ -14,7 +14,7 @@ const Testimonial = () => {
                     <div className="owl-carousel testimonial-carousel position-relative">
                         <div className="d-flex flex-column text-white">
                             <div className="d-flex align-items-center mb-3">
-                                <Image className="img-fluid" src="/img/ceo.png" width={600} height={600}     alt=""/>
+                                <Image className="img-fluid" src="/img/ceo.png" width={600} height={600}     alt="resim"/>
                                 <div className="ml-3">
                                     <h5 className="text-primary">Suat V.</h5>
                                     <i>Ceo</i>
@@ -24,7 +24,7 @@ const Testimonial = () => {
                         </div>
                         <div className="d-flex flex-column text-white">
                             <div className="d-flex align-items-center mb-3">
-                                <Image className="img-fluid" src="/img/emek.png" width={600} height={600} alt=""/>
+                                <Image className="img-fluid" src="/img/emek.png" width={600} height={600} alt="resim"/>
                                 <div className="ml-3">
                                     <h5 className="text-primary">Orhan K.</h5>
                                     <i>Emekli</i>
@@ -34,7 +34,7 @@ const Testimonial = () => {
                         </div>
                         <div className="d-flex flex-column text-white">
                             <div className="d-flex align-items-center mb-3">
-                                <Image className="img-fluid" src="/img/hnm.png" width={600} height={600} alt=""/>
+                                <Image className="img-fluid" src="/img/hnm.png" width={600} height={600} alt="resim"/>
                                 <div className="ml-3">
                                     <h5 className="text-primary">Pelin H.</h5>
                                     <i>Ev Hanımı</i>
@@ -46,7 +46,7 @@ const Testimonial = () => {
                 </div>
                 <div className="col-lg-5" >
                     <div className="position-relative h-100 rounded overflow-hidden">
-                        <Image className="position-absolute w-100 h-100" src="/img/hold.webp" width={600} height={600} alt='image' />
+                        <Image className="position-absolute w-100 h-100" src="/img/hold.webp" width={600} height={600} alt="resim" />
                     </div>
                 </div>
             </div>

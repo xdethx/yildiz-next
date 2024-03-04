@@ -21,7 +21,7 @@ const Blog = () => {
                     <h1 className="section-title mb-3">Son Makaleler</h1>
                 </div>
                 <div className="col-lg-6">
-                    <h4 className="font-weight-normal text-muted mb-3">Temiz,Hijyenik,Antibakteriyel,Hızlı ve Güvenli Halı Yıkama Hizmeti</h4>
+                    <h4 className="font-weight-normal text-muted mb-3">Temiz, Hijyenik, Antibakteriyel, Hızlı ve Güvenli Halı Yıkama Hizmeti</h4>
                 </div>
             </div>
             <div className="row">
@@ -32,7 +32,7 @@ const Blog = () => {
 
 
 <div className="position-relative mb-4">
-    <Image className="img-fluid rounded w-100" src={`/${item.imgUrl}`} width={600} height={600} alt=""/>
+    <Image className="img-fluid rounded w-100" src={`/${item.imgUrl}`} width={600} height={600} alt="resim"/>
     <div className="blog-date">
         <h4 className="font-weight-bold mb-n1">{item.day}</h4>
         <small className="text-white text-uppercase">{item.month}</small>
@@ -46,7 +46,7 @@ const Blog = () => {
 <h5 className="font-weight-medium mb-2">{item.mainHead}</h5>
 <p className="mb-4">{item.subHead}Detaylı bilgi...</p>
 
-<Link href={`/blog_detay/${item.id}`} className="btn btn-sm btn-primary py-2" >{item.id} Okumaya devam et...</Link>
+<Link aria-label="Blog detay safyasını aç" href={`/blog_detay/${item.id}`} className="btn btn-sm btn-primary py-2" >{item.id} Okumaya devam et...</Link>
 
 
 </div>
